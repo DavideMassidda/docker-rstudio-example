@@ -22,6 +22,6 @@ Afterward, you can run the container in your machine:
 docker run -p 8787:8787 -e DISABLE_AUTH=true toy_image
 ```
 
-Since you are working in a private environment, authentication is not required, then we can disable it.
+Since you are working in a private environment, authentication is not required, then it can be disabled.
 
 Now, from the web browser, go to [http://localhost:8787/](http://localhost:8787/)
