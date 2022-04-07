@@ -19,7 +19,7 @@ docker build -t toy_image .
 Afterward, you can run the container in your machine:
 
 ```
-docker run -p 8787:8787 -e DISABLE_AUTH=true toy_image
+docker run --name toy_container -p 8787:8787 -e DISABLE_AUTH=true toy_image
 ```
 
 Since you are working in a private environment, authentication is not required, then it can be disabled.
